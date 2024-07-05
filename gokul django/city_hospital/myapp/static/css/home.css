@@ -1,0 +1,30 @@
+img {
+  
+    height: 450px;
+}
+
+.carousel-caption > h2 {
+    color: black;
+    font-weight: bold;
+}
+.edt{
+    size: 45px;
+    
+    
+    
+}
+
+
+.card > img{
+ 
+    width: 100%;
+}
+
+.head{
+    background-color: rgb(33, 33, 75);
+    
+}
+.dwn{
+    background-color: black;
+    color: white;
+}

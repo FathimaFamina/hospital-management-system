@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for d in dept %}
+<br>
+<div class="card" style="padding-left: 400px; border: none;">
+<div class="card bg-light mb-3" style="max-width: 30rem;">
+    <div class="card-header">{{ d.dep_name }}</div>
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">{{ d.dep_desc }}</p>
+     
+    </div>
+  </div>
+</div>
+<br>
+  {% endfor %}
+{% endblock %}
